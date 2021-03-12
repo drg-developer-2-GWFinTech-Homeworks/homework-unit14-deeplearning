@@ -60,9 +60,16 @@ Use the above to answer the following:
 
 > Which model has a lower loss?
 >
+>   The closing price model has a lower loss metric.
+>
 > Which model tracks the actual values better over time?
 >
+>   The closing model tends to track the shape of the price history more accurately than the FNG model.
+>
 > Which window size works best for the model?
+>
+>   A window size of 10 seems to work well for the model.
+>
 
 - - -
 
@@ -91,6 +98,16 @@ For training, use at least 10 estimators for both models.
 * Include a Markdown that summarizes your homework and include this report in your GitHub repository.
 
 * Submit the link to your GitHub project to Bootcamp Spot.
+
+## Future Research
+
+Vary:
+- Nbr. units
+- Dropout fraction
+- Nbr. of layers
+- Window size
+- Batch size
+- Nbr. Epochs
 
 - - -
 
